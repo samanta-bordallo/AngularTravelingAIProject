@@ -1,3 +1,19 @@
-<!-- Conteúdo da segunda tela -->
-<h2>Segunda Tela</h2>
-<!-- Adicione os elementos da segunda tela conforme necessário -->
+<div class="center-container">
+  <h2>Explore travel guides and itineraries with AI</h2>
+</div>
+
+<div class="rectangle-container">
+  <img src="assets\Imagens\icon_ai.png" alt="OpenAI Icon">
+  <input type="text" id="descriptionInput" placeholder="Describe what do you would like to see in your travel.">
+</div>
+
+<div class="center-container">
+  <h4>Browse our most popular destinations</h4>
+</div>
+
+<div>
+  <button mat-button (click)="selecionarPais('Country 1')">Country 1</button>
+  <button mat-button (click)="selecionarPais('Country 2')">Country 2</button>
+  <button mat-button (click)="selecionarPais('Country 3')">Country 3</button>
+  <button mat-button (click)="selecionarPais('See more')">See more</button>
+</div>

@@ -1,0 +1,49 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Defina a altura total da viewport */
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.center-container {
+  text-align: center;
+}
+
+.rectangle-container {
+  display: flex;
+  align-items: center;
+  max-width: 500px; /* Defina a largura máxima do retângulo conforme necessário */
+  margin: 0 auto; /* Centraliza o retângulo na tela */
+  padding: 10px; /* Adiciona algum espaçamento interno ao retângulo */
+  border-radius: 40px; /* Adiciona bordas arredondadas ao retângulo */
+  border: 1px solid #ccc; /* Adiciona uma borda para destacar os cantos arredondados */
+  background-color: #f0f0f0;
+
+}
+
+input {
+  width: 100%; /* Ocupa 100% da largura disponível no retângulo */
+  padding: 10px;
+  margin-left: 10px; /* Adiciona algum espaçamento entre a imagem e o input */
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+img {
+  width: 50px; /* Ajuste conforme necessário */
+  height: 50px; /* Ajuste conforme necessário */
+}
+
+.custom-button {
+  width: 100px; /* Ajuste conforme necessário */
+  border-radius: 8px; /* Borda redonda */
+  margin-right: 10px; /* Espaçamento entre os botões (opcional) */
+}
