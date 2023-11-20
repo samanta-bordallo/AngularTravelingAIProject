@@ -4,16 +4,16 @@
 
 <div class="rectangle-container">
   <img src="assets\Imagens\icon_ai.png" alt="OpenAI Icon">
-  <input type="text" id="descriptionInput" placeholder="Describe what do you would like to see in your travel.">
+  <input type="text" id="descriptionInput" placeholder="Describe what you would like to see in your travel.">
+</div>
+
+<div class="center-container" style="margin-top: 10px; margin-bottom: 30px;">
+  <h4 style="color: gray;">Browse our most popular destinations</h4>
 </div>
 
 <div class="center-container">
-  <h4>Browse our most popular destinations</h4>
-</div>
-
-<div>
-  <button mat-button (click)="selecionarPais('Country 1')">Country 1</button>
-  <button mat-button (click)="selecionarPais('Country 2')">Country 2</button>
-  <button mat-button (click)="selecionarPais('Country 3')">Country 3</button>
-  <button mat-button (click)="selecionarPais('See more')">See more</button>
+  <button mat-button class="custom-button" (click)="selecionarPais('Country 1')">Italy</button>
+  <button mat-button class="custom-button" (click)="selecionarPais('Country 2')">Zurich</button>
+  <button mat-button class="custom-button" (click)="selecionarPais('Country 3')">Rio de Janeiro</button>
+  <button mat-button class="custom-button" (click)="selecionarPais('See more')">See more</button>
 </div>

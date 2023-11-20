@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh; /* Defina a altura total da viewport */
+  /* height: 10vh; /* Defina a altura total da viewport */
 }
 
 h2 {
@@ -11,18 +11,23 @@ h2 {
 
 
 .center-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .rectangle-container {
   display: flex;
   align-items: center;
-  max-width: 500px; /* Defina a largura máxima do retângulo conforme necessário */
+  height: 60px;
+  max-width: 600px; /* Defina a largura máxima do retângulo conforme necessário */
   margin: 0 auto; /* Centraliza o retângulo na tela */
   padding: 10px; /* Adiciona algum espaçamento interno ao retângulo */
   border-radius: 40px; /* Adiciona bordas arredondadas ao retângulo */
   border: 1px solid #ccc; /* Adiciona uma borda para destacar os cantos arredondados */
   background-color: #f0f0f0;
+  cursor: pointer;
 
 }
 
@@ -43,7 +48,14 @@ img {
 }
 
 .custom-button {
-  width: 100px; /* Ajuste conforme necessário */
-  border-radius: 8px; /* Borda redonda */
-  margin-right: 10px; /* Espaçamento entre os botões (opcional) */
+  width: 130px; /* Ajuste conforme necessário */
+  height: 35px; /* Ajuste conforme necessário */
+  border-radius: 40px; /* Borda redonda */
+  margin-right: 20px; /* Espaçamento entre os botões (opcional) */
+  background-color: #f0f0f0; /* Cor de fundo cinza */
+  color: #fff; /* Cor do texto branco */
+  font-size: 13px; /* Tamanho da fonte */
+  /* border: none;  Remove a borda padrão */
+  cursor: pointer; /* Adiciona um indicador de cursor ao passar o mouse */
+  border: 1px solid #ccc;
 }
