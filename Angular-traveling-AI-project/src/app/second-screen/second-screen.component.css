@@ -1,0 +1,80 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 10vh; /* Defina a altura total da viewport */
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.rectangle-container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  max-width: 600px; /* Defina a largura máxima do retângulo conforme necessário */
+  margin: 0 auto; /* Centraliza o retângulo na tela */
+  padding: 10px; /* Adiciona algum espaçamento interno ao retângulo */
+  border-radius: 40px; /* Adiciona bordas arredondadas ao retângulo */
+  border: 1px solid #ccc; /* Adiciona uma borda para destacar os cantos arredondados */
+  background-color: #f0f0f0;
+  cursor: pointer;
+
+}
+
+input {
+  width: 100%; /* Ocupa 100% da largura disponível no retângulo */
+  padding: 10px;
+  margin-left: 10px; /* Adiciona algum espaçamento entre a imagem e o input */
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+img {
+  width: 50px; /* Ajuste conforme necessário */
+  height: 50px; /* Ajuste conforme necessário */
+}
+
+.custom-button {
+  width: 130px; /* Ajuste conforme necessário */
+  height: 35px; /* Ajuste conforme necessário */
+  border-radius: 40px; /* Borda redonda */
+  margin-right: 20px; /* Espaçamento entre os botões (opcional) */
+  background-color: #f0f0f0; /* Cor de fundo cinza */
+  color: #fff; /* Cor do texto branco */
+  font-size: 13px; /* Tamanho da fonte */
+  /* border: none;  Remove a borda padrão */
+  cursor: pointer; /* Adiciona um indicador de cursor ao passar o mouse */
+  border: 1px solid #ccc;
+}
+
+.card {
+  width: 350px;
+  margin: 50px; /* Espaço entre os cards */
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: gray;
+}
