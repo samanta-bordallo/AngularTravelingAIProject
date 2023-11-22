@@ -59,3 +59,22 @@ img {
   cursor: pointer; /* Adiciona um indicador de cursor ao passar o mouse */
   border: 1px solid #ccc;
 }
+
+.card {
+  width: 350px;
+  margin: 50px; /* Espaço entre os cards */
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: gray;
+}

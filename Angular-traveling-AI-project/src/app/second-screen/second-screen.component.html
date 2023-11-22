@@ -1,19 +1,39 @@
 <div class="center-container">
   <h2>Explore travel guides and itineraries with AI</h2>
 </div>
-
+<div style="margin-bottom: 15px;"></div>
 <div class="rectangle-container">
   <img src="assets\Imagens\icon_ai.png" alt="OpenAI Icon">
-  <input type="text" id="descriptionInput" placeholder="Describe what you would like to see in your travel.">
+  <input type="text" id="descriptionInput" placeholder="Describe what do you would like to see in your travel.">
 </div>
-
-<div class="center-container" style="margin-top: 10px; margin-bottom: 30px;">
+<div style="margin-bottom: 30px;"></div>
+<div class="center-container">
   <h4 style="color: gray;">Browse our most popular destinations</h4>
 </div>
 
-<div class="center-container">
+<div class="center-container" style="margin-top: 10px;">
   <button mat-button class="custom-button" (click)="selecionarPais('Country 1')">Italy</button>
   <button mat-button class="custom-button" (click)="selecionarPais('Country 2')">Zurich</button>
   <button mat-button class="custom-button" (click)="selecionarPais('Country 3')">Rio de Janeiro</button>
   <button mat-button class="custom-button" (click)="selecionarPais('See more')">See more</button>
+</div>
+
+<div class="center-container" style="margin-top: 20px;">
+  <div class="card">
+    <img src="assets\Imagens\italy1.jpg" alt="Country 1">
+    <h3>Explore Italy</h3>
+    <p>Texto descritivo para Country 1.</p>
+  </div>
+
+  <div class="card">
+    <img src="assets\Imagens\switzerland1.jpg" alt="Country 2">
+    <h3>Explore Switzerland</h3>
+    <p>Texto descritivo para Country 2.</p>
+  </div>
+
+  <div class="card">
+    <img src="assets\Imagens\france1.jpg" alt="Country 3">
+    <h3>Explore France</h3>
+    <p>Texto descritivo para Country 3.</p>
+  </div>
 </div>
